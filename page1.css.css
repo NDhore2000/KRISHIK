@@ -1,0 +1,113 @@
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(green.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* height: 100%;
+  width: 100%; */
+}
+.navbar {
+display: flex;
+background-color: #94ff0c;
+gap: 20px;
+/* margin-left: 10px; */
+}
+.navbar2{
+background: white;
+}
+.navbar2 button {
+border: 1px solid #94ff0c;
+background-color: white;
+color: black;
+gap: 40px;
+padding: 2px;
+margin: 10px;
+}
+
+.login-container {
+    margin-right: 50px 50px 50px 50px;
+    margin-top: 50px;
+    margin-left: 20%;
+    width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #C7FFB3;
+
+    padding: 10px;
+  }
+
+.krishik{
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32%;
+  color: #136805;
+}
+.transparent-container{
+  width: 700px;
+  height: 350px;
+  border-radius: 11px;
+  background: #C7FFB382;
+  margin-left: 23%;
+  margin-top: auto;
+}
+.transp {
+  width: 370px;
+  height: 66px;
+  top: 12px;
+  left: 211px;
+  margin-left: 23%;
+  margin-top: 50px;
+
+  /* border-radius: 0px, 31px, 0px, 31px; */
+  border-radius: 0px 50px 0px 50px;
+
+ background-color: #C7FFB3 ; 
+
+}
+.transp h1{
+  font-family: Montserrat Alternates;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #136805;
+margin-left: 20%;
+}
+
+
+/* label {
+    display: block;
+    margin-bottom: 8px;
+}
+label .textwrapper{
+  margin-top: 100px;
+
+} */
+
+input {
+    width: 30%;
+    /* padding: 8px; */
+    /* margin-bottom: 16px; */
+}
+.buttons{
+  margin-left: 30%;
+}
+button {
+    background: #94FF0C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: 20%;
+    margin-right: 10%; */
+    justify-content: center;
+    align-items: center;
+}
